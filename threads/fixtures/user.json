@@ -1,0 +1,22 @@
+[
+{
+    "fields": {
+        "username": "ninaokoye@outlook.com",
+        "first_name": "",
+        "last_name": "",
+        "is_active": true,
+        "is_superuser": true,
+        "is_staff": true,
+        "last_login": "2017-05-02T15:16:07.376Z",
+        "subscription_end": "2017-05-02T15:15:46.198Z",
+        "groups": [],
+        "user_permissions": [],
+        "password": "pbkdf2_sha256$20000$AHCn0z6qkXAc$q7rwdPaUHR0sQv8/815eSdt3bHFi4yF1YaGqv/IrCww=",
+        "stripe_id": "",
+        "email": "ninaokoye@outlook.com",
+        "date_joined": "2017-05-02T15:15:46.197Z"
+    },
+    "model": "accounts.user",
+    "pk": 1
+}
+]
