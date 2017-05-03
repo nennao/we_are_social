@@ -21,17 +21,17 @@ from paypal_store import views as paypal_views
 from products import views as product_views
 from magazines import views as magazine_views
 from accounts.views import register, profile, login, logout, cancel_subscription, subscriptions_webhook
-from django.conf import settings
+# from django.conf import settings
 from threads import views as forum_views
-import debug_toolbar as debug_toolbar  # for testing
+# import debug_toolbar as debug_toolbar  # for testing
 
-if settings.DEBUG:
-    import debug_toolbar
+# if settings.DEBUG:
+#     import debug_toolbar
 
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^__debug__/', include(debug_toolbar.urls)),
+    # url(r'^__debug__/', include(debug_toolbar.urls)),
     url(r'^$', views.get_index),
 
     # Auth URLs
